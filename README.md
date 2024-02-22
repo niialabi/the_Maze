@@ -1,5 +1,10 @@
 Welcome to MazeMaster ALX-SE EDITION!
 
+COMPILLER COMMAND:
+gcc -Wall -Werror -Wextra -pedantic ./source_c/*.c -lm -I/path/to/SDL2/include $(sdl2-config --cflags --libs) -lSDL2_image -o maze
+
+gcc -Wall -Werror -Wextra -pedantic ./source_c/*.c -lm -I/path/to/SDL2/include $(sdl2-config --cflags --libs) -lSDL2_image -o maze
+
 Are you ready to embark on an exhilarating journey through a labyrinth of twists, turns, and surprises? Look no further, because MazeMaster 3000 is here to deliver an immersive maze exploration experience like no other!
 
 What makes MazeMaster ALX-SE EDITION stand out? Let's dive into the magic behind the scenes:
