@@ -19,9 +19,9 @@ To start playing:
 Clone the GitHub repository.
 2. Compile all .c files in the maze directory:
 
-gcc -Wall -Werror -Wextra -pedantic ./source_c/*.c -lm -I/path/to/SDL2/include $(sdl2-config --cflags --libs) -lSDL2_image -o maze
+gcc -Wall -Werror -Wextra -pedantic ./source_c/*.c -lm -I/path/to/SDL2/include $(sdl2-config --cflags --libs) -lSDL2_image -o theMAZE
 
-3. Execute ./maze to launch the game.
+3. Execute ./theMAZE to launch the game.
 Controls:
 
 Move forward: Up arrow key or W
